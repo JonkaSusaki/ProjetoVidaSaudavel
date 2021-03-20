@@ -1,0 +1,181 @@
+@use '../variables';
+
+.container {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.titleSection {
+	@include variables.section;
+
+	.title {
+		font-size: 50px;
+		font-weight: 700;
+
+		margin: 20px 0 5px;
+	}
+
+	.subTitle {
+		width: 70vw;
+
+		font-size: 20px;
+		text-align: center;
+		color: variables.$text-sub-color;
+	}
+}
+
+.howSection {
+	@include variables.section;
+
+	.content {
+		height: 100%;
+		width: 100%;
+
+		padding: 0 70px;
+
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.howSectionText::-webkit-scrollbar {
+		width: 5px;
+	}
+
+	.howSectionText::-webkit-scrollbar-thumb {
+		background: #9b9b9b;
+		border-radius: 5px;
+	}
+
+	.howSectionText {
+		width: 40%;
+		max-height: 70%;
+
+		padding-right: 10px;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		overflow-y: auto;
+
+		.title {
+			font-size: 40px;
+			font-weight: 700;
+			margin-bottom: 20px;
+		}
+
+		.subTitle {
+			font-size: 20px;
+			text-align: justify;
+			color: variables.$text-sub-color;
+		}
+	}
+}
+
+.aboutSection {
+	@include variables.section;
+
+	.content {
+		height: 100%;
+		width: 100%;
+
+		padding: 0 70px;
+
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.aboutSectionText {
+		width: 40%;
+		max-height: 70%;
+
+		padding-right: 10px;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		overflow-y: auto;
+
+		.title {
+			font-size: 40px;
+			font-weight: 700;
+			margin-bottom: 20px;
+		}
+
+		.subTitle {
+			font-size: 20px;
+			text-align: justify;
+			color: variables.$text-sub-color;
+		}
+	}
+}
+
+.helpSection {
+	@include variables.section;
+
+	.helpSectionText {
+		.title {
+			font-size: 40px;
+			font-weight: 700;
+			margin-bottom: 20px;
+		}
+	
+		.subTitle {
+			font-size: 20px;
+			text-align: justify;
+			color: variables.$text-sub-color;
+			margin-bottom: 20px;
+		}
+
+		.form {
+			.formGroup {
+				display: flex;
+				flex-direction: column;
+
+				margin: 20px 0;
+	
+				.label {
+					font-size: 20px;
+					margin-bottom: 10px;
+				}
+
+				.input {
+					padding: 10px;
+
+					font-size: 20px;
+
+					border-radius: 5px;
+					border: none;
+					outline: none;
+
+					background-color: #c4c4c4;
+				}
+
+				.textarea {
+					@extend .input;
+
+					height: 100px;
+				}
+			}
+
+		}
+		.button {
+			@include variables.button;
+
+			background-color: variables.$primary-color;
+			color: #fff;
+
+			font-size: 20px;
+
+			border: none;
+		}
+
+		.button:hover {
+			background-color: variables.$primary-color-hover;
+		}
+	}
+
+
+}

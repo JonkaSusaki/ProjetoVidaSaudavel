@@ -1,0 +1,20 @@
+$primary-color: #673ab6;
+$primary-color-hover: #522e91;
+
+$text-sub-color: #4e4e4e;
+
+@mixin button {
+	padding: 10px;
+	border-radius: 5px;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+@mixin section {
+	height: 100vh;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}

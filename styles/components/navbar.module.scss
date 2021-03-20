@@ -1,0 +1,84 @@
+@use '../variables';
+
+.container {
+	width: 250px;
+	height: 100vh;
+
+	padding-right: 40px;
+
+	background-color: variables.$primary-color;
+
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+
+	color: #fff;
+
+	.toggle {
+		display: flex;
+		justify-content: flex-end;
+
+		padding: 10px;
+		margin-right: -40px;
+
+		.toggleIcon {
+			height: 5px;
+		}
+	}
+
+	.list {
+		list-style: none;
+
+		font-size: 18px;
+
+		margin-top: 40px;
+
+		width: 100%;
+
+		position: relative;
+
+		.listItem {
+			width: 100%;
+			display: flex;
+			justify-content: center;
+
+			padding: 10px;
+
+			cursor: pointer;
+
+			transition: 0.3s;
+		}
+
+		.listItem:hover {
+			background-color: variables.$primary-color-hover;
+		}
+	}
+
+	.help {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+
+		width: 210px;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		padding: 10px;
+
+		font-size: 20px;
+
+		cursor: pointer;
+
+		transition: 0.3s;
+
+		.icon {
+			margin-right: 10px;
+		}
+	}
+
+	.help:hover {
+		background-color: variables.$primary-color-hover;
+	}
+
+}

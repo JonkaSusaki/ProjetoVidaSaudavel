@@ -1,0 +1,20 @@
+{
+	"homePage": {
+		"startSection": {
+			"title": "Projeto Saúde Mental",
+			"subTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque viverra mauris eget tempus condimentum. Mauris quis purus massa. Ut iaculis diam arcu, nec rhoncus mi auctor interdum."
+		},
+		"howSection": {
+			"title": "Como funciona?",
+			"subTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque viverra mauris eget tempus condimentum. Mauris quis purus massa. Ut iaculis diam arcu, nec rhoncus mi auctor interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque viverra mauris eget tempus condimentum. Mauris quis purus massa. Ut iaculis diam arcu, nec rhoncus mi auctor interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque viverra mauris eget tempus condimentum. Mauris quis purus massa. Ut iaculis diam arcu, nec rhoncus mi auctor interdum. Ut iaculis diam arcu, nec rhoncus mi auctor interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque viverra mauris eget tempus condimentum. Mauris quis purus massa. Ut iaculis diam arcu, nec rhoncus mi auctor interdum."
+		},
+		"aboutSection": {
+			"title": "Quem somos",
+			"subTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque viverra mauris eget tempus condimentum. Mauris quis purus massa. Ut iaculis diam arcu, nec rhoncus mi auctor interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque viverra mauris eget tempus condimentum. Mauris quis purus massa. Ut iaculis diam arcu, nec rhoncus mi auctor interdum."
+		},
+		"helpSection": {
+			"title": "Ajuda",
+			"subTitle": "Tem alguma dúvida, reclamação ou elogio? Gostaríamos de te ouvir!"
+		}
+	}
+}

@@ -1,0 +1,136 @@
+@use '../variables';
+
+@mixin container {
+	height: 60px;
+	width: 100%;
+
+	font-family: 'Source Sans Pro', sans-serif;
+
+	display: flex;
+	justify-content: center;
+
+	position: fixed;
+	top: 0;
+}
+
+@mixin content {
+	height: 100%;
+	width: 70%;
+
+	font-weight: 600;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+@mixin menu {
+	list-style: none;
+	display: flex;
+	align-items: center;
+
+	a {
+		margin: 0 20px;
+		cursor: pointer;
+		transition: 0.3s;
+	}
+}
+
+.containerTransparent {
+	@include container;
+
+	.content {
+		@include content;
+
+		color: variables.$primary-color;
+	}
+
+	.menu {
+		@include menu;
+
+		a:after {
+			content: '';
+			border-bottom: 1px solid variables.$primary-color-hover;
+			width: 0;
+			transition: 0.3s;
+			display: block;
+		}
+
+		a:hover {
+			color: variables.$primary-color-hover;
+		}
+
+		a:hover:after {
+			width: 100%;
+		}
+	}
+
+	.button {
+		@include variables.button;
+		background-color: variables.$primary-color;
+		color: #fff;
+
+		margin-right: 0;
+	}
+
+	.button:hover {
+		background-color: variables.$primary-color-hover;
+	}
+}
+
+.containerColored {
+	@include container;
+
+	background-color: variables.$primary-color;
+
+	.content {
+		@include content;
+
+		color: #fff;
+	}
+
+	.menu {
+		@include menu;
+
+		a:after {
+			content: '';
+			border-bottom: 1px solid variables.$primary-color-hover;
+			width: 0;
+			transition: 0.3s;
+			display: block;
+		}
+
+		a:hover {
+			color: variables.$primary-color-hover;
+		}
+
+		a:hover:after {
+			width: 100%;
+		}
+	}
+
+	.button {
+		@include variables.button;
+		background-color: variables.$primary-color;
+		color: #fff;
+
+		margin-right: 0;
+	}
+
+	.button:hover {
+		background-color: variables.$primary-color-hover;
+	}
+}
+
+.leftHeader {
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 25px;
+	font-weight: 700;
+
+	cursor: pointer;
+}
