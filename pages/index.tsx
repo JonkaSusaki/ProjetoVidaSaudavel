@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { GetStaticProps } from 'next';
 
 import content from '../content.json';
@@ -26,6 +26,8 @@ export const getStaticProps: GetStaticProps = async () => {
 };
 
 export default function Home(props) {
+	const [howItemsVisible, setHowItemsVisible] = useState(false);
+
 	return (
 		<div className={styles.container}>
 			<Header />
@@ -60,7 +62,33 @@ export default function Home(props) {
 						<div className={styles.aboutSectionText}>
 							<div className={styles.title}>{props.aboutSection.title}</div>
 							<div className={styles.subTitle}>
-								{props.aboutSection.subTitle}
+								{props.aboutSection.subTitle} <br />
+								<div className={styles.more}>
+									<strong onClick={() => setHowItemsVisible(!howItemsVisible)}>
+										{howItemsVisible ? 'Menos' : 'Saiba mais...'}
+									</strong>
+								</div>
+								<div
+									className={howItemsVisible ? styles.items : styles.noItems}
+								>
+									<div className={styles.title}>Missão</div>
+
+									<div className={styles.subTitle}>
+										{props.aboutSection.mission}
+									</div>
+									<div className={styles.title}>Visão</div>
+
+									<div className={styles.subTitle}>
+										{props.aboutSection.vision}
+									</div>
+									<div className={styles.title}>Valores</div>
+
+									<div className={styles.subTitle}>
+										{props.aboutSection.values.map((item) => (
+											<li>{item}</li>
+										))}
+									</div>
+								</div>
 							</div>
 						</div>
 
