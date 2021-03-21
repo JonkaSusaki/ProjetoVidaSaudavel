@@ -155,6 +155,9 @@
 
 			.items {
 				margin-top: 20px;
+				text-align: start;
+
+				list-style: none;
 
 				.title {
 					font-size: 25px;
@@ -241,7 +244,7 @@
 
 
 			.howSectionText {
-				margin: 50px 0;
+				margin: 50px 2px;
 				width: auto;
 			}
 		}
