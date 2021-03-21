@@ -1,16 +1,23 @@
 {
 	"homePage": {
 		"startSection": {
-			"title": "Projeto Saúde Mental",
+			"title": "Projeto Mente Saudável",
 			"subTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque viverra mauris eget tempus condimentum. Mauris quis purus massa. Ut iaculis diam arcu, nec rhoncus mi auctor interdum."
 		},
 		"howSection": {
 			"title": "Como funciona?",
-			"subTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque viverra mauris eget tempus condimentum. Mauris quis purus massa. Ut iaculis diam arcu, nec rhoncus mi auctor interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque viverra mauris eget tempus condimentum. Mauris quis purus massa. Ut iaculis diam arcu, nec rhoncus mi auctor interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque viverra mauris eget tempus condimentum. Mauris quis purus massa. Ut iaculis diam arcu, nec rhoncus mi auctor interdum. Ut iaculis diam arcu, nec rhoncus mi auctor interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque viverra mauris eget tempus condimentum. Mauris quis purus massa. Ut iaculis diam arcu, nec rhoncus mi auctor interdum."
+			"subTitle": "O objetivo deste programa é ensinar métodos eficazes que, depois de aprendidos, proporcionam maior alegria e satisfação na vida. \n Aqui você terá acesso a conteúdo terapêutico baseado em décadas de pesquisas científicas apresentado de forma objetiva e prática para que você possa iniciar hoje mesmo os cuidados com sua saúde mental. \n Ao longo dos módulos você irá aprender técnicas e exercícios psicoterápicos que lhe servirão para o resto da vida, além de contar com o feedback de psicólogos profissionais."
 		},
 		"aboutSection": {
 			"title": "Quem somos",
-			"subTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque viverra mauris eget tempus condimentum. Mauris quis purus massa. Ut iaculis diam arcu, nec rhoncus mi auctor interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque viverra mauris eget tempus condimentum. Mauris quis purus massa. Ut iaculis diam arcu, nec rhoncus mi auctor interdum."
+			"subTitle": "O (INSIRA MARCA AQUI) é uma plataforma criada para oferecer práticas de saúde mental de forma objetiva e acessível.\n Os programas, recursos e produtos ofertados são cuidadosamente elaborados e ministrados por psicólogos profissionais e baseados em metodologias cientificamente testadas.",
+			"mission": "Ofertar práticas psicoterápicas de forma responsável, objetiva e acessível, adaptando os métodos tradicionais aos recursos contemporâneos, assim contribuindo para o cuidado em saúde mental de nossos clientes e parceiros.",
+			"vision": "Tornarmo-nos referência em conteúdo psicoterápico no meio digital, impactando positivamente a vida das pessoas.",
+			"values": [
+				"Ética e responsabilidade",
+				"Amor ao aprendizado",
+				"Integridade e respeito"
+			]
 		},
 		"helpSection": {
 			"title": "Ajuda",
