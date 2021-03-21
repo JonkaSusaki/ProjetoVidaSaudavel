@@ -4,6 +4,10 @@
 	font-family: 'Montserrat', sans-serif;
 }
 
+.image {
+	height: 300px;
+}
+
 .titleSection {
 	@include variables.section;
 
@@ -261,5 +265,11 @@
 @media (max-width: 720px) {
 	.helpSection {
 		margin: 0 20px;
+	}
+}
+
+@media (max-width: 500px) {
+	.image {
+		height: 200px
 	}
 }
