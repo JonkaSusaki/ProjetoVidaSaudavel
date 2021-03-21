@@ -134,3 +134,11 @@
 
 	cursor: pointer;
 }
+
+@media (max-width: 850px) {
+	.menu {
+		opacity: 0;
+		visibility: hidden;
+	}
+}
+
