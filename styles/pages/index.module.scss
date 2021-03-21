@@ -7,9 +7,12 @@
 .titleSection {
 	@include variables.section;
 
+	text-align: center;
+
 	.title {
 		font-size: 50px;
 		font-weight: 700;
+
 
 		margin: 20px 0 5px;
 	}
@@ -18,7 +21,6 @@
 		width: 70vw;
 
 		font-size: 20px;
-		text-align: center;
 		color: variables.$text-sub-color;
 	}
 }
@@ -47,8 +49,8 @@
 	}
 
 	.howSectionText {
-		width: 40%;
 		max-height: 70%;
+		width: 40%;
 
 		padding-right: 10px;
 
@@ -221,5 +223,43 @@
 		.button:hover {
 			background-color: variables.$primary-color-hover;
 		}
+	}
+}
+
+/* Responsivity */
+
+@media (max-width: 1000px) {
+	.howSection {
+		.content {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+			border: 1px solid black;
+
+			.howSectionText {
+				margin: 50px;
+				width: auto;
+			}
+		}
+	}
+
+	.aboutSection {
+		.content {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+			.aboutSectionText {
+				margin: 50px;
+				width: auto;
+			}
+		}
+	}
+}
+
+@media (max-width: 720px) {
+	.helpSection {
+		margin: 0 20px;
 	}
 }
