@@ -37,7 +37,7 @@ export default function Home(props) {
 					<img
 						src="/vectors/wanderingMind.svg"
 						alt="Imagem pensante"
-						height={300}
+						className={styles.image}
 					/>
 
 					<div className={styles.title} id="title">
@@ -48,7 +48,11 @@ export default function Home(props) {
 
 				<div className={styles.howSection} id="howSection">
 					<div className={styles.content}>
-						<img src="/vectors/mindMap.svg" alt="Mapa mental" height={300} />
+						<img
+							src="/vectors/mindMap.svg"
+							alt="Mapa mental"
+							className={styles.image}
+						/>
 
 						<div className={styles.howSectionText}>
 							<div className={styles.title}>{props.howSection.title}</div>
@@ -95,7 +99,7 @@ export default function Home(props) {
 						<img
 							src="/vectors/formingIdeas.svg"
 							alt="Formação de ideias"
-							height={300}
+							className={styles.image}
 						/>
 					</div>
 				</div>
