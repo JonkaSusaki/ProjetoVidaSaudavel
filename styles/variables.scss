@@ -8,6 +8,9 @@ $text-sub-color: #4e4e4e;
 	border-radius: 5px;
 	transition: 0.3s;
 	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 @mixin section {

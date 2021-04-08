@@ -89,7 +89,9 @@ export default function Home(props) {
 
 									<div className={styles.subTitle}>
 										{props.aboutSection.values.map((item) => (
-											<li>{item}</li>
+											<li key={props.aboutSection.values.indexOf(item)}>
+												{item}
+											</li>
 										))}
 									</div>
 								</div>
