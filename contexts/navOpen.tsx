@@ -8,7 +8,7 @@ interface ContextValue {
 export const NavOpenContext = createContext<ContextValue>({} as ContextValue);
 
 export default function NavProvider({ children }) {
-	const [open, setOpen] = useState(false);
+	const [open, setOpen] = useState(true);
 
 	function toggle() {
 		setOpen(!open);

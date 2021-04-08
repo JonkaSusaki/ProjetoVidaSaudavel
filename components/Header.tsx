@@ -36,7 +36,7 @@ const Header = () => {
 					</ul>
 				</div>
 
-				<Link href="/user/1">
+				<Link href="/1/1">
 					<div className={styles.button}>
 						<a>Entrar</a>
 					</div>

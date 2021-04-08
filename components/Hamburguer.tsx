@@ -41,7 +41,7 @@ const botVariants = {
 export default function Hamburguer() {
 	const { open, toggle } = useContext(NavOpenContext);
 
-	const [animation, cycleAnimation] = useCycle('closed', 'open');
+	const [animation, cycleAnimation] = useCycle('open', 'closed');
 
 	function click() {
 		toggle();

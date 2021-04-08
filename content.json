@@ -23,5 +23,96 @@
 			"title": "Ajuda",
 			"subTitle": "Tem alguma dúvida, reclamação ou elogio? Gostaríamos de te ouvir!"
 		}
+	},
+	"modulePage": {
+		"modules": [
+			{
+				"videoUrl": "https://youtu.be/DBfALRoo6kU",
+				"moduleTitle": "Definindo seus objetivos",
+				"title": "Agora que você entendeu a importância de definir objetivos pessoais e que eles devem ser o mais claros e específicos o possível, chegou a hora de colocá-los no papel.",
+				"questions": [
+					{
+						"q": "Defina duas mudanças em seu estado de humor ou em sua vida que você espera alcançar com os aprendizados deste programa.",
+						"sq": ""
+					},
+					{
+						"q": "Descreva as vantagens e desvantagens de atingir os objetivos que você escolheu anteriormente.",
+						"sq": ""
+					},
+					{
+						"q": "Escreva algumas das qualidades, dos pontos fortes, das experiências e dos valores que dão a você a esperança de que atingirá seus objetivos.",
+						"sq": "Leve em consideração sucessos e obstáculos do passado que conseguiu superar; qualidades positivas que tem, como senso de humor ou outras que ajudam em momentos de dificuldade; crenças espirituais; uma disposição para aprender novas habilidades; pessoas que o apoiam; saúde física e garra; ou mesmo uma motivação determinada para atingir seus objetivos."
+					},
+					{
+						"q": "Defina quais os sinais você acredita indicarão se você está tendo alguma melhora, o que você espera que seja diferente quando começar a melhorar?",
+						"sq": "Mais uma vez, tente ser o mais específico possível."
+					}
+				]
+			},
+			{
+				"videoUrl": "https://youtu.be/jCl3eoFVFyU",
+				"moduleTitle": "As 5 partes de nossas vidas",
+				"title": "Agora que você sabe disso, você está pronto para refletir sobre o que têm vivenciado em cada área da sua vida a fim de identificar de onde vêm seus maiores problemas e como eles estão afetando as outras áreas. Portanto, descreva o que está vivenciando nas em cada uma das áreas de sua vida: ",
+				"questions": [
+					{
+						"q": "Mudanças ambientais/situações de vida: ",
+						"sq": ""
+					},
+					{
+						"q": "Reações físicas: ",
+						"sq": ""
+					},
+					{
+						"q": "Estados de humor: ",
+						"sq": ""
+					},
+					{
+						"q": "Comportamentos: ",
+						"sq": ""
+					}
+				]
+			},
+			{
+				"videoUrl": "https://youtu.be/pw2RnTjEL5g",
+				"moduleTitle": "Começando Pelo Pensamento",
+				"title": "Com base em seus pensamentos: ",
+				"questions": [
+					{
+						"q": "Quais  estados de humor são mais prováveis de você experimentar?",
+						"sq": ""
+					},
+					{
+						"q": "Como você prevê seu comportamento?",
+						"sq": ""
+					},
+					{
+						"q": "Quais reações físicas você é mais provável de experimentar?",
+						"sq": ""
+					},
+					{
+						"q": "Como é mais provável que você reaja diante de seu ambiente?",
+						"sq": ""
+					}
+				]
+			},
+			{
+				"videoUrl": "http://www.youtube.com/watch?v=smqhSl0u_sI&ab_channel=music",
+				"moduleTitle": "Identificando e avaliando estados de humor",
+				"title": "Um dos passos para aprender a se sentir melhor é identificar diferentes partes de suas experiências: situações, comportamentos, estados de humor, reações físicas e pensamentos. Este exercício foi projetado para ajudá-lo a aprender a separar seus estados de humor das situações em que você se encontra. Concentre-se nas situações específicas em que você teve um estado de humor intenso, escolha duas e preencha as questões a seguir:",
+				"questions": [
+					{
+						"q": "Situação 1",
+						"sq": "a) Descreva a situação \n b) Estados de humor \n c) Intensidade dos estados de humor"
+					},
+					{
+						"q": "Situação 2",
+						"sq": "a) Descreva a situação \n b) Estados de humor \n c) Intensidade dos estados de humor"
+					}
+				]
+			},
+			{
+				"videoUrl": "http://www.youtube.com/watch?v=smqhSl0u_sI&ab_channel=music"
+			}
+		]
 	}
 }
